@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards Estudo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="titulo">
+            <h2>Notas rápidas de estudos</h2>
+        </div>
+        <div class="mudar">
+            <h2>(Perguntas aletórias)</h2>
+        </div>
+        <p>Este é um projeto desenvolvido pensando numa ferramenta de 
+        estudos. O intuito é elaborar e organizar um mecanismo de notas,
+         ou uma ferramenta que organize um pequeno resumo dos temas</p>
+        <p>O grid de cards está organizado em uma matriz de 3x3,
+            podendo ser expandido ou reduzido a matrizes de tamanhos menores.
+        </p>
+    </header>
+    <main>
+        <section id="container">
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo1">
+                        <div class="cartao1">
+                         <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>conteúdo 1</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Quando foi que o Corinthians ganhou o seu primeiro muidial?</div>
+                                <div class="cartao-conteudo-resposta">Foi em 2000</div>
+                            </div>
+                            <div class="card-back"
+                                <h3>Resumo do cartão 1</h3>
+                                <p>No ano de 2000 o Corinthians ganhou </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo2">
+                        <div class="cartao2">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>conteúdo 2</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">pergunta 2</div>
+                                <div class="cartao-conteudo-resposta">resposta 2</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resumo</h3>
+                                <p>Conteúdo atrás do cartão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo3">
+                        <div class="cartao3">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>conteúdo 3</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">pergunta 3</div>
+                                <div class="cartao-conteudo-resposta">resposta 3</div>
+                            <div class="card-back">
+                                <h3>Resumo cartão 3</h3>
+                                <p>conteudo do resumo do cartao 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
